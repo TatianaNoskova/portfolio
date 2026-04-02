@@ -1,0 +1,65 @@
+.footer {
+  margin-top: 80px;
+  padding: 40px 20px;
+  text-align: center;
+  font-size: 14px;
+  color: #6b7280;
+  border-top: 1px solid #e2e8f0;
+  background: #edf2f7;
+}
+
+/* контейнер внутри футера */
+.footer-content {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* ссылки контейнер - делаем flex, чтобы иконки выравнивались */
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;       /* чтобы на узких экранах переносились */
+  justify-content: center;
+  gap: 50px;             /* расстояние между ссылками */
+  margin-top: 10px;
+}
+
+/* каждая ссылка - flex для вертикального выравнивания */
+.footer-link {
+  display: flex;
+  align-items: center;   /* иконка по центру текста */
+  gap: 6px;              /* расстояние между иконкой и текстом */
+  text-decoration: none;
+  color: #6b7280;
+  font-size: 14px;
+}
+
+/* увеличиваем размер иконок */
+.footer-icon {
+  font-size: 18px;
+}
+
+/* hover эффект */
+.footer a:hover {
+  color: #111827;
+}
+
+@media (max-width: 768px) {
+
+  .footer-links {
+    flex-direction: column;   /* 👈 ключевое */
+    align-items: flex-start;  /* 👈 красиво выравнивает */
+    gap: 16px;
+    width: 100%;
+    padding: 8px 0;
+  }
+
+  .footer-content {
+    text-align: left;
+  }
+
+  .footer-icon {
+    font-size: 20px;
+  }
+
+
+}

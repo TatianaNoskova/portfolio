@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: #fafafa;
+  color: #111827;
+}
+
+/* ссылки */
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: opacity 0.2s;
+}
+
+a:hover {
+  opacity: 0.7;
+}
+
+/* заголовки */
+h1 {
+  font-size: 48px;
+  line-height: 1.2;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+  margin: 0 0 16px;
+}
+
+h2 {
+  font-size: 22px;
+  margin: 32px 0 16px;
+  font-weight: 600;
+}
+
+:root {
+  --nav-height: 80px;
+}
+
+/* 👇 ВОТ ЭТО ДОБАВЬ ОБЯЗАТЕЛЬНО 
+.project-page,
+.home {
+  padding-top: var(--nav-height);
+} */
+
+/* 👇 чтобы якоря не уезжали под navbar */
+
+
+#skills,
+#contact {
+  scroll-margin-top: var(--nav-height);
+}
+
+#projects {
+  scroll-margin-top: calc(var(--nav-height) + 120px);
+}
