@@ -5,6 +5,16 @@ import vetClinic from "../assets/vet-clinic-home.png";
 import socksStore from "../assets/socks-store-home.png";
 import recetas from "../assets/recetas-inicio.png";
 import mobile from "../assets/mobile-1.jpg";
+import htmlIcon from "../assets/icons/html5.svg";
+import cssIcon from "../assets/icons/css3.svg";
+import jsIcon from "../assets/icons/javascript.svg";
+import reactIcon from "../assets/icons/react.svg";
+import laravelIcon from "../assets/icons/laravel.svg";
+import nodeJsIcon from "../assets/icons/nodejs.svg";
+import mySqlIcon from "../assets/icons/mysql.svg";
+import javaIcon from "../assets/icons/java.svg";
+import gitIcon from "../assets/icons/git.svg";
+
 
 import Footer from "../components/Footer";
 import { Link } from "react-router-dom";
@@ -127,51 +137,47 @@ function Home() {
 
   <div className="skills-grid">
     <div className="skill">
-      <img src="/src/assets/icons/html5.svg" alt="HTML" />
+      <img src={htmlIcon} alt="HTML" />
       <span>HTML</span>
     </div>
 
     <div className="skill">
-      <img src="/src/assets/icons/css3.svg" alt="CSS" />
+      <img src={cssIcon} alt="HTML" />
       <span>CSS</span>
     </div>
 
     <div className="skill">
-      <img src="/src/assets/icons/javascript.svg" alt="JavaScript" />
+      <img src={jsIcon} alt="HTML" />
       <span>JavaScript</span>
     </div>
 
     <div className="skill">
-      <img src="/src/assets/icons/react.svg" alt="React" />
+      <img src={reactIcon} alt="HTML" />
       <span>React</span>
     </div>
 
     <div className="skill">
-      <img src="/src/assets/icons/laravel.svg" alt="Laravel" />
+      <img src={laravelIcon} alt="HTML" />
       <span>Laravel</span>
     </div>
 
     <div className="skill">
-      <img src="/src/assets/icons/nodejs.svg" alt="Node.js" />
+      <img src={nodeJsIcon} alt="HTML" />
       <span>Node.js</span>
     </div>
 
     <div className="skill">
-      <img src="/src/assets/icons/mysql.svg" alt="MySQL" />
+      <img src={mySqlIcon} alt="HTML" />
       <span>MySQL</span>
     </div>
 
     <div className="skill">
-      <img src="/src/assets/icons/java.svg" alt="Java" />
+      <img src={javaIcon} alt="HTML" />
       <span>Java</span>
     </div>
 
-    
-
-    
-
     <div className="skill">
-      <img src="/src/assets/icons/git.svg" alt="Git" />
+      <img src={gitIcon} alt="HTML" />
       <span>Git</span>
     </div>
   </div>
