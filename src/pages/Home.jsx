@@ -43,87 +43,158 @@ function Home() {
         </section>
 
         <section className="project-card">
-
           <div className="project-image">
+            {/* картинка кликабельна всегда */}
+            <Link to="/project/vet-clinic">
+              <img src={vetClinic} alt="Veterinary Clinic Website" />
+            </Link>
 
-            <img src={vetClinic} alt="Veterinary Clinic Website" />
-
+            {/* overlay — только для десктопа */}
             <div className="overlay">
-              <Link to="/project/vet-clinic">View Project</Link>
-              <a href="https://github.com/TatianaNoskova/Veterinaria">View Code</a>
-            </div>
+              <Link to="/project/vet-clinic" className="view-project">
+                View Project
+              </Link>
 
+              <a
+                href="https://github.com/TatianaNoskova/Veterinaria"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="view-code"
+              >
+                View Code
+              </a>
+            </div>
           </div>
 
           <h3>Veterinary Clinic Website</h3>
+
+          {/* кнопка для планшетов/мобилок — отдельный элемент под картинкой */}
+          <a
+            href="https://github.com/TatianaNoskova/Veterinaria"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="view-code-mobile"
+          >
+            View Code
+          </a>
 
           <div className="tech">
             <span>Laravel</span>
             <span>MySQL</span>
           </div>
-
         </section>
 
+        {/* Recipe Sharing Platform */}
         <section className="project-card">
-
           <div className="project-image">
-
-            <img src={recetas} alt="Recipe Website" />
+            <Link to="/project/recetas">
+              <img src={recetas} alt="Recipe Website" />
+            </Link>
 
             <div className="overlay">
-              <Link to="/project/recetas">View Project</Link>
-              <a href="https://github.com/TatianaNoskova/RecipesWebsite">View Code</a>
+              <Link to="/project/recetas" className="view-project">
+                View Project
+              </Link>
+              <a
+                href="https://github.com/TatianaNoskova/RecipesWebsite"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="view-code"
+              >
+                View Code
+              </a>
             </div>
-
           </div>
 
           <h3>Recipe Sharing Platform</h3>
+
+          <a
+            href="https://github.com/TatianaNoskova/RecipesWebsite"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="view-code-mobile"
+          >
+            View Code
+          </a>
 
           <div className="tech">
             <span>PHP</span>
             <span>MySQL</span>
           </div>
-
         </section>
 
+        {/* Knitted Socks Store */}
         <section className="project-card">
-
           <div className="project-image">
-
-            <img src={socksStore} alt="Knitted Socks Store" />
+            <Link to="/project/socks-store">
+              <img src={socksStore} alt="Knitted Socks Store" />
+            </Link>
 
             <div className="overlay">
-              <Link to="/project/socks-store">View Project</Link>
-              <a href="https://github.com/TatianaNoskova/MiniOnlineStore">View Code</a>
+              <Link to="/project/socks-store" className="view-project">
+                View Project
+              </Link>
+              <a
+                href="https://github.com/TatianaNoskova/MiniOnlineStore"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="view-code"
+              >
+                View Code
+              </a>
             </div>
-
           </div>
 
           <h3>Knitted Socks Store</h3>
+
+          <a
+            href="https://github.com/TatianaNoskova/MiniOnlineStore"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="view-code-mobile"
+          >
+            View Code
+          </a>
 
           <div className="tech">
             <span>React / Express</span>
             <span>MySQL</span>
           </div>
-
         </section>
 
-
+        {/* Russian Language Trainer */}
         <section className="project-card">
-
           <div className="project-image">
-
-            <img src={mobile} alt="Russian Language Trainer" />
+            <Link to="/project/russian-app">
+              <img src={mobile} alt="Russian Language Trainer" />
+            </Link>
 
             <div className="overlay">
-              <Link to="/project/russian-app">View Project</Link>
-              <a href="https://github.com/TatianaNoskova/Russian-Language-Trainer">View Code</a>
+              <Link to="/project/russian-app" className="view-project">
+                View Project
+              </Link>
+              <a
+                href="https://github.com/TatianaNoskova/Russian-Language-Trainer"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="view-code"
+              >
+                View Code
+              </a>
             </div>
-
           </div>
 
           <h3>Russian Language Trainer</h3>
           <p>Mobile App</p>
+
+          <a
+            href="https://github.com/TatianaNoskova/Russian-Language-Trainer"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="view-code-mobile"
+          >
+            View Code
+          </a>
 
           <div className="tech">
             <span>Java</span>
