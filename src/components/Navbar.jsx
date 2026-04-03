@@ -41,9 +41,9 @@ function Navbar() {
 
   {/* RIGHT */}
     <div className={`nav-right ${open ? "open" : ""}`}>
-      <a href="mailto:tatiana.noskova.arg@gmail.com" className="contact-link" >
-      <MdEmail className="contact-icon" />
-      tatiana.noskova.arg@gmail.com
+      <a href="mailto:tatiana.noskova.arg@gmail.com" className="contact-link">
+        <MdEmail className="contact-icon" />
+        <span className="email-text">tatiana.noskova.arg@gmail.com</span>
       </a>
 
       <a
@@ -52,7 +52,7 @@ function Navbar() {
         rel="noopener noreferrer"
         className="whatsapp"
       >
-        <FaWhatsapp className="contact-icon whatsapp-icon" />
+        <FaWhatsapp className="contact-icon" />
       </a>
 
   {/*<button className="lang-switch">
