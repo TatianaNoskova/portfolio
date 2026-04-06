@@ -12,8 +12,8 @@ function RussianApp() {
   const screens = [
     { src: screen1, title: "Main screens overview" },
     { src: screen2, title: "Vocabulary training" },
-    { src: screen3, title: "Exercises and practice" },
-    { src: screen4, title: "User progress" }
+    { src: screen3, title: "Configuration" },
+    { src: screen4, title: "Responsive Design (Mobile View)" }
   ];
 
   const [activeImage, setActiveImage] = useState(screens[0]);

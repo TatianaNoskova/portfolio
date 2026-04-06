@@ -12,10 +12,10 @@ import screen4 from "../assets/vet-3.png";
 function VetClinic() {
 
   const screens = [
-    { src: screen1, title: "Dashboard" },
-    { src: screen2, title: "Appointment Management" },
-    { src: screen3, title: "Client Management" },
-    { src: screen4, title: "Pet Medical Records" }
+    { src: screen1, title: "Landing Page" },
+    { src: screen2, title: "Admin's dashboard" },
+    { src: screen3, title: "Invoice Creation Page" },
+    { src: screen4, title: "Appointment Booking Page" }
   ];
 
   const [activeImage, setActiveImage] = useState(screens[0]);
