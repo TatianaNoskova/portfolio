@@ -18,7 +18,7 @@ function Footer() {
           {/* WhatsApp с видимым номером */}
           <a href="https://wa.me/5491127971696" className="footer-link">
             <FaWhatsapp className="footer-icon" />
-            +54 9 11 27671696
+            +54 9 11 27971696
           </a>
 
           {/* GitHub */}
